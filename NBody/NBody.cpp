@@ -18,7 +18,7 @@ int main()
 		}
 	};
 	Window::WindowManager wm(winParameters);
-	OpenGL::NBody nBody(30);
+	OpenGL::NBody nBody(20);
 	wm.init(0, &nBody);
 	init.printRenderer();
 	glfwSwapInterval(0);
