@@ -1,1 +1,1 @@
-#include <CUDA/_CUDA_Device.cuh>
+#include <CUDA/_CUDA_NBody_Device.cuh>
