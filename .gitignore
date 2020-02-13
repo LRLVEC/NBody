@@ -338,3 +338,15 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+!/x64
+!/x64/Debug
+!/x64/Release
+/x64/Debug/*
+!/x64/Debug/openvr_api.dll
+!/x64/Debug/openvr_api.dll.sig
+!/x64/Debug/openvr_api.pdb
+/x64/Release/*
+!/x64/Release/openvr_api.dll
+!/x64/Release/openvr_api.dll.sig
+!/x64/Release/openvr_api.pdb
