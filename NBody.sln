@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NBody", "NBody\NBody.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NBodyCUDA", "NBodyCUDA\NBodyCUDA.vcxproj", "{C5AC9D42-7803-408B-9085-10E357C3A9AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NBodyVR", "NBodyVR\NBodyVR.vcxproj", "{82FD40B3-5B53-45A2-BFFA-432467AADC23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NBodyCUDAVR", "NBodyCUDAVR\NBodyCUDAVR.vcxproj", "{A0A0400E-9453-4070-B041-AC0BEA3061E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -29,6 +33,20 @@ Global
 		{C5AC9D42-7803-408B-9085-10E357C3A9AF}.Release|x64.ActiveCfg = Release|x64
 		{C5AC9D42-7803-408B-9085-10E357C3A9AF}.Release|x64.Build.0 = Release|x64
 		{C5AC9D42-7803-408B-9085-10E357C3A9AF}.Release|x86.ActiveCfg = Release|x64
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Debug|x64.ActiveCfg = Debug|x64
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Debug|x64.Build.0 = Debug|x64
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Debug|x86.ActiveCfg = Debug|Win32
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Debug|x86.Build.0 = Debug|Win32
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Release|x64.ActiveCfg = Release|x64
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Release|x64.Build.0 = Release|x64
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Release|x86.ActiveCfg = Release|Win32
+		{82FD40B3-5B53-45A2-BFFA-432467AADC23}.Release|x86.Build.0 = Release|Win32
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Debug|x64.ActiveCfg = Debug|x64
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Debug|x64.Build.0 = Debug|x64
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Debug|x86.ActiveCfg = Debug|x64
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Release|x64.ActiveCfg = Release|x64
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Release|x64.Build.0 = Release|x64
+		{A0A0400E-9453-4070-B041-AC0BEA3061E2}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
