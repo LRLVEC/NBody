@@ -1,6 +1,7 @@
 #include <cstdio>
-#include <CUDA/_CUDA.h>
 #include <GL/_Window.h>
+#define _CUDA
+#include <GL/_NBody.h>
 #include <_Math.h>
 #include <_Time.h>
 
@@ -21,7 +22,7 @@ int main()
 	Window::WindowManager wm(winParameters);
 	CUDA::OpenGLDeviceInfo intro;
 	intro.printInfo();
-	CUDA::NBodyCUDA nBody(68 * 1, false);
+	OpenGL::NBodyCUDA nBody(68 * 1, false);
 	::printf("Num particles: %d\n", nBody.particles.particles.length);
 
 	wm.init(0, &nBody);

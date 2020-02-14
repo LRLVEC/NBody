@@ -1,9 +1,8 @@
 #include <cstdio>
-#include <_Time.h>
-#include <GL/_OpenGL.h>
-#include <GL/_NBody.h>
 #include <GL/_Window.h>
-#include <GL/_OpenVR.h>
+#include <GL/_NBody.h>
+#include <_Math.h>
+#include <_Time.h>
 
 
 int main()

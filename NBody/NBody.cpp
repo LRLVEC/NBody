@@ -1,5 +1,4 @@
 #include <cstdio>
-#include <GL/_OpenGL.h>
 #include <GL/_Window.h>
 #include <GL/_NBody.h>
 #include <_Math.h>
