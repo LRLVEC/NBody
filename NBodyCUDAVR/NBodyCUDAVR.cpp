@@ -20,7 +20,7 @@ int main()
 	Window::WindowManager wm(winParameters);
 	CUDA::OpenGLDeviceInfo intro;
 	intro.printInfo();
-	OpenGL::NBodyCUDAVR nBody(64 * 1, false);
+	OpenGL::VR::NBodyCUDAVR nBody(60 * 1, false);
 	::printf("Num particles: %d\n", nBody.particles.particles.length);
 
 	wm.init(0, &nBody);
